@@ -1,0 +1,42 @@
+{
+  "name": "delilah",
+  "version": "1.0.0",
+  "description": "Proyecto de Acamica",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "populateData": "node ./src/services/database/model/index.js --populateData"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git https://github.com/gvasque6/delilah.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "Acamica",
+    "Full",
+    "Stack",
+    "Web",
+    "Development",
+    "JavaScript"
+  ],
+  "author": "Andrea Vasquez Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvasque6/delilah.git"
+  },
+  "homepage": "https://github.com/gvasque6/delilah.git",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.0"
+  }
+}
