@@ -1,4 +1,4 @@
-# Delilah Restaurante
+# Delilah
 El objetivo el proyecto consiste en construir un API Rest para una tienda de comidad que use nodejs y mysql. Bajo un modelo de base de datos relacional y la documentación de la API con los endpoints.
 
 #### Caracteristicas
@@ -77,20 +77,3 @@ A continuación un breve resumen de los endpoints.
 |   GET  | /orders/{id}       | Trae la información de la orden               |
 |   PUT  | /orders/{id}       | Actualiza el estado de la orden               |
 |DELETE  | /orders/{id}       | Elimina la orden                              |
-
-
-## Tecnologias utilizadas
-- [XAMPP](https://www.apachefriends.org/index.html): Contiene Mysql. 
-- [Swagger](https://editor.swagger.io/) : Se usa para documentar los endpoints de las API.
-- [Postman](https://www.postman.com/) : Se usa para testear los Endpoints.
-- [Node.js](https://nodejs.org) : Funciona como servidor centralizado.
-
-## Paquetes NPM
-- [Express](http://expressjs.com) : Framework que permite manejar peticiones y rutas de una forma agil.
-- [express-validator](https://express-validator.github.io/) : Para validación y limpieza de peticiones body y query params.
-- [nodemon](https://www.npmjs.com/package/nodemon) : Usado para carga rapida de servidor.
-- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) : Creacion y validación de token [JWT](https://jwt.io) como metodo de autenticación.
-- [dotenv](https://www.npmjs.com/package/dotenv) : Usado para proteger el token. 
-- [Sequelize](https://www.npmjs.com/package/sequelize) : ORM utilizado para conexión con Mysql.
-- [mysql2](https://www.npmjs.com/package/mysql2) : Cliente Mysql utilizado para nodejs, el cual se integra con sequilize.
-- [moment](https://www.npmjs.com/package/moment) : Se utiliza para parsear facilmente las fechas.
